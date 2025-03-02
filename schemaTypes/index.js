@@ -6,10 +6,11 @@ import { skills } from "./skills";
 import { testimonials } from "./testimonials";
 import { workExperience } from "./workExperience";
 import { works } from "./works";
+import { testimonial } from "./testimonial";
 
 export const schemaTypes = [
   abouts,
-  testimonials,
+  testimonial,
   workExperience,
   works,
   contact,

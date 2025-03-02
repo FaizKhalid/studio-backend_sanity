@@ -23,9 +23,14 @@ export const testimonials=defineType({
             },
         },  
         {
-            name:'feedback',
-            title:'Feedback',
-            type:'string'
-        }
+            name: 'feedback',
+            title: 'Feedback',
+            type: 'array',
+            of: [
+              {
+                type: 'block'
+              }
+            ]
+          }
     ]
 });
